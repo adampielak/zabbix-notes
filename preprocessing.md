@@ -29,8 +29,8 @@ StartPreprocessors=3
     + $['a document'].item.value - {"a document":{"item":{"value":10}}} - 10
 + 数据类型 - XML (XML XPath)
   + 此功能需要Zabbix-Server在编译时开启libxml参数，rpm安装默认已经带此参数
-    + number(/document/item/value) - <document><item><value>10</value></item></document> - 10
-    + number(/document/item/@attribute) - <document><item attribute="10"></item></document> - 10
+    + number(/document/item/value) - `<document><item><value>10</value></item></document>` - 10
+    + number(/document/item/@attribute) - `<document><item attribute="10"></item></document>` - 10
 + 乘法运算 - 倍数 (Custom multiplier)
 + 数值变化 - 差值 (Simple change)
 + 数值变化 - 速率 (Change per second)
